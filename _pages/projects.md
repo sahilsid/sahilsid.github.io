@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of some cool projects I've dirtied my hands with :computer:.
 nav: true
 ---
 
@@ -18,7 +18,7 @@ nav: true
     {% endif %}
       <div class="card hoverable">
         {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        <img class="img-fluid rounded z-depth-1" src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
