@@ -10,7 +10,7 @@ class L2 {
 tf.serialization.registerClass(L2);
 
 async function run() {
-  model = await tf.loadLayersModel('https://srv-store4.gofile.io/download/E1io8e/model.json', strict = false);
+  model = await tf.loadLayersModel('https://srv-store6.gofile.io/download/0zdSS3/model.json', strict = false);
 }  
 
 document.addEventListener('DOMContentLoaded', run);
