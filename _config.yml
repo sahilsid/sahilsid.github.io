@@ -130,6 +130,7 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-sitemap
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
