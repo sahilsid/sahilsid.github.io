@@ -1,6 +1,22 @@
 ---
 ---
 
+
+@article{sidheekh2021characterizing,
+      title={Characterizing GAN Convergence Through Proximal Duality Gap}, 
+      author={Sahil Sidheekh and Aroof Aimen and Narayanan C. Krishnan},
+      year={2021},
+      abstract={Despite the accomplishments of Generative Adversarial Networks (GANs) in modeling data distributions, training them remains a challenging task. A contributing factor to this difficulty is the non-intuitive nature of the GAN loss curves, which necessitates a subjective evaluation of the generated output to infer training progress. Recently, motivated by game theory, duality gap has been proposed as a domain agnostic measure to monitor GAN training. However, it is restricted to the setting when the GAN converges to a Nash equilibrium. But GANs need not always converge to a Nash equilibrium to model the data distribution. In this work, we extend the notion of duality gap to proximal duality gap that is applicable to the general context of training GANs where Nash equilibria may not exist. We show theoretically that the proximal duality gap is capable of monitoring the convergence of GANs to a wider spectrum of equilibria that subsumes Nash equilibria. We also theoretically establish the relationship between the proximal duality gap and the divergence between the real and generated data distributions for different GAN formulations. Our results provide new insights into the nature of GAN convergence. Finally, we validate experimentally the usefulness of proximal duality gap for monitoring and influencing GAN training.},
+      journal={International Conference on Machine Learning (ICML) },
+      pdf={proximal_dg.pdf},
+      url={https://arxiv.org/abs/2105.04801},
+      html={https://arxiv.org/abs/2105.04801},
+      code={https://github.com/proximal-dg/proximal_dg},
+      teaser={proximal_dg.png},
+      selected={true},
+      
+}
+
 @INPROCEEDINGS{aimen2021stress,
       title={Stress Testing of Meta-learning Approaches for Few-shot Learning}, 
       author={Aroof Aimen and Sahil Sidheekh and Vineet Madan and Narayanan C. Krishnan},
@@ -18,7 +34,7 @@
       author={Sahil Sidheekh and Aroof Aimen and Vineet Madan and Narayanan C. Krishnan},
       year={2021},
       abstract={Generative adversarial network (GAN) is among the most popular deep learning models for learning complex data distributions. However, training a GAN is known to be a challenging task. This is often attributed to the lack of correlation between the training progress and the trajectory of the generator and discriminator losses and the need for the GAN's subjective evaluation. A recently proposed measure inspired by game theory - the duality gap, aims to bridge this gap. However, as we demonstrate, the duality gap's capability remains constrained due to limitations posed by its estimation process. This paper presents a theoretical understanding of this limitation and proposes a more dependable estimation process for the duality gap. At the crux of our approach is the idea that local perturbations can help agents in a zero-sum game escape non-Nash saddle points efficiently. Through exhaustive experimentation across GAN models and datasets, we establish the efficacy of our approach in capturing the GAN training progress with minimal increase to the computational complexity. Further, we show that our estimate, with its ability to identify model convergence/divergence, is a potential performance measure that can be used to tune the hyperparameters of a GAN.},
-      journal={Under Review. },
+      journal={International Joint Conference on Neural Networks (IJCNN) },
       pdf={pert_dg.pdf},
       url={https://arxiv.org/abs/2012.06723},
       html={https://arxiv.org/abs/2012.06723},
