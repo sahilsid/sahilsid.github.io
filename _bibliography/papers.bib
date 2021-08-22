@@ -3,17 +3,49 @@
 
 
 @article{sidheekh2021characterizing,
-      title={Characterizing GAN Convergence Through Proximal Duality Gap}, 
-      author={Sahil Sidheekh and Aroof Aimen and Narayanan C. Krishnan},
+      title={On Characterizing GAN Convergence Through Proximal Duality Gap}, 
+      author={Sahil Sidheekh and Aroof Aimen and  Narayanan C.Krishnan},
       year={2021},
       abstract={Despite the accomplishments of Generative Adversarial Networks (GANs) in modeling data distributions, training them remains a challenging task. A contributing factor to this difficulty is the non-intuitive nature of the GAN loss curves, which necessitates a subjective evaluation of the generated output to infer training progress. Recently, motivated by game theory, duality gap has been proposed as a domain agnostic measure to monitor GAN training. However, it is restricted to the setting when the GAN converges to a Nash equilibrium. But GANs need not always converge to a Nash equilibrium to model the data distribution. In this work, we extend the notion of duality gap to proximal duality gap that is applicable to the general context of training GANs where Nash equilibria may not exist. We show theoretically that the proximal duality gap is capable of monitoring the convergence of GANs to a wider spectrum of equilibria that subsumes Nash equilibria. We also theoretically establish the relationship between the proximal duality gap and the divergence between the real and generated data distributions for different GAN formulations. Our results provide new insights into the nature of GAN convergence. Finally, we validate experimentally the usefulness of proximal duality gap for monitoring and influencing GAN training.},
       journal={International Conference on Machine Learning (ICML) },
       pdf={proximal_dg.pdf},
-      url={https://arxiv.org/abs/2105.04801},
-      html={https://arxiv.org/abs/2105.04801},
+      url={http://proceedings.mlr.press/v139/sidheekh21a.html},
+      html={https://icml.cc/virtual/2021/poster/8559},
       code={https://github.com/proximal-dg/proximal_dg},
       teaser={proximal_dg.png},
       selected={true},
+}
+
+
+@article{aimen2021task,
+      title={Task Attended Meta-Learning for Few-Shot Learning}, 
+      author={Aroof Aimen and Sahil Sidheekh and Narayanan C. Krishnan},
+      year={2021},
+      abstract={Meta-learning (ML) has emerged as a promising direction in learning models under constrained resource settings like few-shot learning. The popular approaches for ML either learn a generalizable initial model or a generic parametric optimizer through episodic training. The former approaches leverage the knowledge from a batch of tasks to learn an optimal prior. In this work, we study the importance of a batch for ML. Specifically, we first incorporate a batch episodic training regimen to improve the learning of the generic parametric optimizer. We also hypothesize that the common assumption in batch episodic training that each task in a batch has an equal contribution to learning an optimal meta-model need not be true. We propose to weight the tasks in a batch according to their "importance" in improving the meta-model's learning. To this end, we introduce a training curriculum motivated by selective focus in humans, called task attended meta-training, to weight the tasks in a batch. Task attention is a standalone module that can be integrated with any batch episodic training regimen. The comparisons of the models with their non-task-attended counterparts on complex datasets like miniImageNet and tieredImageNet validate its effectiveness.},
+      journal={Preprint, Under Review},
+      pdf={taskatt.pdf},
+      url={https://arxiv.org/abs/2106.10642},
+      html={https://arxiv.org/abs/2106.10642},
+      teaser={taskatt.png},
+      selected={false},
+      
+}
+
+
+@article{deb2021machine,
+      title={Machine learning methods trained on simple models can predict critical transitions in complex natural systems}, 
+      author={Smita Deb and Sahil Sidheekh and  Christopher F. Clements and Narayanan C. Krishnan and Partha S. Dutta},
+      year={2021},
+      abstract={1. Sudden transitions from one stable state to a contrasting state occur in complex systems ranging from the collapse of ecological populations to climatic change, with much recent work seeking to develop methods to predict these unexpected transitions from signals in time series data. However, previously developed methods vary widely in their reliability, and fail to classify whether an approaching collapse might be catastrophic (and hard to reverse) or non-catastrophic (easier to reverse) with significant implications for how such systems are managed.
+      2. Here we develop a novel detection method, using simulated outcomes from a range of simple mathematical models with varying nonlinearity to train a deep neural network to detect critical transitions - the Early Warning Signal Network (EWSNet).
+      3. We demonstrate that this neural network (EWSNet), trained on simulated data with minimal assumptions about the underlying structure of the system, can predict with high reliability observed real-world transitions in ecological and climatological data. Importantly, our model appears to capture latent properties in time series missed by previous warning signals approaches, allowing us to not only detect if a transition is approaching but critically whether the collapse will be catastrophic or non-catastrophic.
+      4. The EWSNet can flag a critical transition with unprecedented accuracy, overcoming some of the major limitations of traditional methods based on phenomena such as Critical Slowing Down. These novel properties mean EWSNet has the potential to serve as a universal indicator of transitions across a broad spectrum of complex systems, without requiring information on the structure of the system being monitored. Our work highlights the practicality of deep learning for addressing further questions pertaining to ecosystem collapse and have much broader management implications.},
+      journal={Preprint, Under Review},
+      pdf={ewsnet.pdf},
+      url={https://www.biorxiv.org/content/10.1101/2021.03.15.435556v1},
+      html={https://www.biorxiv.org/content/10.1101/2021.03.15.435556v1},
+      teaser={ewsnet.png},
+      selected={false},
       
 }
 
@@ -21,7 +53,7 @@
       title={Stress Testing of Meta-learning Approaches for Few-shot Learning}, 
       author={Aroof Aimen and Sahil Sidheekh and Vineet Madan and Narayanan C. Krishnan},
       year={2021},
-      booktitle={ AAAI Workshop on Metalearning }, 
+      booktitle={ AAAI Workshop on Metalearning and Co-Hosted Challenge}, 
       pdf={stress_test.pdf},
       url={https://sites.google.com/chalearn.org/metalearning?pli=1#h.kt23ep5wlehv},
       html={https://sites.google.com/chalearn.org/metalearning?pli=1#h.kt23ep5wlehv},
@@ -58,7 +90,7 @@
 }
 
 @INPROCEEDINGS{9225276,
-  author={A. {Aimen} and A. {Kaur} and S. {Sidheekh}},
+  author={Aroof Aimen and Amandeep Kaur and Sahil Sidheekh},
   booktitle={ 11th International Conference on Computing, Communication and Networking Technologies (ICCCNT)}, 
   title={Scale Invariant Fast PHT based Copy-Move Forgery Detection}, 
   year={2020},

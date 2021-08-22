@@ -1,8 +1,8 @@
 ---
 layout: model
 permalink: /model/
-title: EWS
-description: Deep learning method to forecast and characterize transitions in complex natural systems.
+title: EWSNet
+description: A Deep learning model to forecast and characterize transitions in complex dynamical systems.
 nav: true
 
 authors:

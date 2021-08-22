@@ -116,7 +116,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - _projects/ewsnet.md
+  # - _projects/ewsnet.md
 keep_files:
   - CNAME
   - .nojekyll
