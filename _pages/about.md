@@ -15,8 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an AI resident at [Verisk Analytics](https://www.verisk.com/), with research interests in machine learning, deep learning, and computer vision. I broadly work in the domain of <b> probabilistic generative models and meta-learning</b>. I also explore <b>application of deep learning</b> to novel problems that can impact society for the better. Previously, I completed by undergraduate studies majoring in Computer Science and Engineering from [IIT Ropar](https://www.iitrpr.ac.in/), where I was fortunate to be a part of the [LSAIML](https://cse.iitrpr.ac.in/ckn/index.html) team headed by [Dr. Narayanan C. K](https://cse.iitrpr.ac.in/ckn/people/ckn.html).
+I am an AI researcher working broadly in the domains of <b> probabilistic generative models </b> and <b> meta-learning</b>. I also explore <b>applications of deep learning</b> to novel problems that can impact society for the better. Previously, I completed by undergraduate studies majoring in Computer Science and Engineering from [IIT Ropar](https://www.iitrpr.ac.in/), where I was fortunate to be a part of the [LSAIML](https://seekayan.github.io/) team headed by [Dr. Narayanan C. K](https://seekayan.github.io/ck.html).
 
-I am a passionate AI researcher who enjoys connecting dots and innovating ideas that span multiple disciplines. I have a strong academic background in engineering and machine learning. If you would like to collaborate, please feel free to reach out through [email](mailto:sahil.sidheekh@outlook.com) :mailbox_closed:. 
+I am passionate about building robust and efficient systems that can reason probabilistically and make interpretable decisions. I enjoy connecting dots and innovating ideas that span multiple disciplines. I have a strong academic background in engineering and machine learning. If you would like to collaborate, please feel free to reach out through [email](mailto:sahil.sidheekh@outlook.com) :mailbox_closed:. 
 
 I am also on the look for <b>Ph.D. opportunities in AI/ML,</b>  starting Fall 2022.
