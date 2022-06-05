@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: B.Tech Graduate - <a href="#">Indian Institute of Technology Ropar</a>. 
+description: <b> Incoming Ph.D. Candidate -  The University of Texas at Dallas <b> <br> B.Tech Graduate - <a href="#">Indian Institute of Technology Ropar</a>. 
 
 profile:
   align: right
@@ -19,4 +19,4 @@ I am an AI researcher working broadly in the domains of <b> probabilistic genera
 
 I am passionate about building robust and efficient systems that can reason probabilistically and make interpretable decisions. I enjoy connecting dots and innovating ideas that span multiple disciplines. I have a strong academic background in engineering and machine learning. If you would like to collaborate, please feel free to reach out through [email](mailto:sahil.sidheekh@outlook.com) :mailbox_closed:. 
 
-I am also on the look for <b>Ph.D. opportunities in AI/ML,</b>  starting Fall 2022.
+I will be joining the :stars: [StARLing Lab](https://starling.utdallas.edu/assets/images/Logo.png) headed by [Dr. Sriraam Natarajan](https://personal.utdallas.edu/~sriraam.natarajan/) as a Ph.D. Student,  starting Fall'22. Excited :sparkles:
