@@ -13,7 +13,7 @@ authors:
 bibliography: ewsnet.bib
 img: /assets/img/teaser/ewsnet.png
 main_image: teaser/lstmfcn.png
-
+redirect: https://ewsnet.github.io/model
 placeholders: true
 ---
 

@@ -8,5 +8,10 @@ nav: true
 
 ***
 ###### **CS503** - _Machine Learning_, _Spring 2021_
-###### Indian Institute of Technology, Ropar
+###### Indian Institute of Technology Ropar
+***
+
+
+###### **CS4337** - _Programming Languages and Paradigms_, _Fall 2022_
+###### The University of Texas at Dallas
 ***

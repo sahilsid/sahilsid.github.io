@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/~sahil.sidheekh/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/~sahil.sidheekh/" rel="alternate" type="text/html" /><updated>2022-10-29T13:36:29-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">a post with github metadata</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T16:01:00-05:00</published><updated>2020-09-28T16:01:00-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2020/github-metadata</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2020/github-metadata/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
+
+<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
+<ul>
+  <li>Propagates the site.github namespace with repository metadata</li>
+  <li>Setting site variables :
+    <ul>
+      <li>site.title</li>
+      <li>site.description</li>
+      <li>site.url</li>
+      <li>site.baseurl</li>
+    </ul>
+  </li>
+  <li>Accessing the metadata - duh.</li>
+  <li>Generating edittable links.</li>
+</ul>
+
+<h2 id="additional-reading">Additional Reading</h2>
+<ul>
+  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.</li>
+  <li>Go through this <a href="https://jekyll.github.io/github-metadata/" target="blank">README</a> for more details on the topic.</li>
+  <li><a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
+<br /></li>
+</ul>
+
+<h2 id="example-metadata">Example MetaData</h2>
+<ul>
+  <li>Host Name : github.com</li>
+  <li>URL : https://github.com/pages/sahilsid/sahilsid.github.io</li>
+  <li>BaseURL : /pages/sahilsid/sahilsid.github.io</li>
+  <li>Archived :</li>
+  <li>Contributors :</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[a quick run down on accessing github metadata.]]></summary></entry><entry><title type="html">a post with twitter</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2020/twitter/" rel="alternate" type="text/html" title="a post with twitter" /><published>2020-09-28T10:12:00-05:00</published><updated>2020-09-28T10:12:00-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2020/twitter</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2020/twitter/"><![CDATA[<p>A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.</p>
+
+<p><br /></p>
+
+<h1 id="tweet">Tweet</h1>
+<p>An example of displaying a tweet :</p>
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="sv" dir="ltr">jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API <a href="http://t.co/m4EIQPM9h4">http://t.co/m4EIQPM9h4</a></p>&mdash; RubyGems (@rubygems) <a href="https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw">October 5, 2014</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><br />
+<br />
+<br />
+<br /></p>
+<h1 id="timeline">Timeline</h1>
+<p>An example of pulling from a timeline :</p>
+<div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw">Tweets by jekyllrb</a>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><br />
+<br />
+<br />
+<br /></p>
+<h1 id="additional-details">Additional Details</h1>
+<p>For more details on using the plugin visit : https://github.com/red-data-tools/jekyll-jupyter-notebook</p>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with twitter]]></summary></entry><entry><title type="html">a distill-style blog post</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2018/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2018-12-22T00:00:00-06:00</published><updated>2018-12-22T00:00:00-06:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2018/distill</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2018/distill/"><![CDATA[<h2 id="equations">Equations</h2>
+
+<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/" target="\_blank">MathJax 3</a> engine.
+You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.
+If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+
+<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
+Here is an example:</p>
+
+\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
+
+<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html" target="\_blank">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php" target="\_blank">on par with KaTeX</a>.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.</p>
+
+<p>The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
+If you have an appendix, a bibliography is automatically created and populated in it.</p>
+
+<p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
+However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
+
+<hr />
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.
+The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
+
+<hr />
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.
+An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.
+For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
+
+<d-code block="" language="javascript">
+  var x = 25;
+  function(x) {
+    return x * x;
+  }
+</d-code>
+
+<hr />
+
+<h2 id="layouts">Layouts</h2>
+
+<p>The main text column is referred to as the body.
+It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
+
+<div class="fake-img l-body">
+  <p>.l-body</p>
+</div>
+
+<p>For images you want to display a little larger, try <code class="language-plaintext highlighter-rouge">.l-page</code>:</p>
+
+<div class="fake-img l-page">
+  <p>.l-page</p>
+</div>
+
+<p>All of these have an outset variant if you want to poke out from the body text a little bit.
+For instance:</p>
+
+<div class="fake-img l-body-outset">
+  <p>.l-body-outset</p>
+</div>
+
+<div class="fake-img l-page-outset">
+  <p>.l-page-outset</p>
+</div>
+
+<p>Occasionally you’ll want to use the full browser width.
+For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.
+You can also inset the element a little from the edge of the browser by using the inset variant.</p>
+
+<div class="fake-img l-screen">
+  <p>.l-screen</p>
+</div>
+<div class="fake-img l-screen-inset">
+  <p>.l-screen-inset</p>
+</div>
+
+<p>The final layout is for marginalia, asides, and footnotes.
+It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
+
+<div class="fake-img l-gutter">
+  <p>.l-gutter</p>
+</div>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a post with comments</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2015/comments/" rel="alternate" type="text/html" title="a post with comments" /><published>2015-10-20T10:59:00-05:00</published><updated>2015-10-20T10:59:00-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2015/comments</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2015/comments/"><![CDATA[<p>This post shows how to add DISQUS comments.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with comments]]></summary></entry><entry><title type="html">a post with math</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2015/math/" rel="alternate" type="text/html" title="a post with math" /><published>2015-10-20T10:12:00-05:00</published><updated>2015-10-20T10:12:00-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2015/math</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2015/math/"><![CDATA[<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/" target="\_blank">MathJax 3</a> engine. You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>. If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+
+<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph. Here is an example:</p>
+
+\[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\]
+
+<p>You can also use <code class="language-plaintext highlighter-rouge">\begin{equation}...\end{equation}</code> instead of <code class="language-plaintext highlighter-rouge">$$</code> for display mode math.
+MathJax will automatically number equations:</p>
+
+<p>\begin{equation}
+\label{eq:caushy-shwarz}
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation}</p>
+
+<p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
+
+<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html" target="\_blank">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php" target="\_blank">on par with KaTeX</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry><entry><title type="html">a post with code</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2015/code/" rel="alternate" type="text/html" title="a post with code" /><published>2015-07-15T10:09:00-05:00</published><updated>2015-07-15T10:09:00-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2015/code</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2015/code/"><![CDATA[<p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in a liquid tag:</p>
+
+<p>{% highlight c++ linenos %}  <br /> code code code <br /> {% endhighlight %}</p>
+
+<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
+Produces something like this:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">a post with images</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2015/images/" rel="alternate" type="text/html" title="a post with images" /><published>2015-05-15T16:01:00-05:00</published><updated>2015-05-15T16:01:00-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2015/images</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2015/images/"><![CDATA[<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/9.jpg" />
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/7.jpg" />
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/8.jpg" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/10.jpg" />
+    </div>
+</div>
+
+<p>Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90’s shabby chic raw denim.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/11.jpg" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/12.jpg" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/~sahil.sidheekh/assets/img/7.jpg" />
+    </div>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[this is what included images could look like]]></summary></entry><entry><title type="html">a post with formatting and links</title><link href="http://localhost:4000/~sahil.sidheekh/blog/2015/formatting-and-links/" rel="alternate" type="text/html" title="a post with formatting and links" /><published>2015-03-15T11:40:16-05:00</published><updated>2015-03-15T11:40:16-05:00</updated><id>http://localhost:4000/~sahil.sidheekh/blog/2015/formatting-and-links</id><content type="html" xml:base="http://localhost:4000/~sahil.sidheekh/blog/2015/formatting-and-links/"><![CDATA[<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" target="blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" target="blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+
+<h4 id="hipster-list">Hipster list</h4>
+<ul>
+    <li>brunch</li>
+    <li>fixie</li>
+    <li>raybans</li>
+    <li>messenger bag</li>
+</ul>
+
+<p>Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90’s yr typewriter selfies letterpress cardigan vegan.</p>
+
+<hr />
+
+<p>Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.</p>
+
+<blockquote>
+    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+    —Anais Nin
+</blockquote>
+
+<p>Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[march & april, looking forward to summer]]></summary></entry></feed>
