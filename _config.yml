@@ -94,6 +94,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  personal:
+    output: true
+    permalink: /personal/:path/
+  
 
 news_limit: 5
 
