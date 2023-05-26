@@ -1,5 +1,5 @@
 ---
-layout: photo_set
+layout: personal
 permalink: /travels/
 title: Travels
 description: 

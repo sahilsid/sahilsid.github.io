@@ -2,7 +2,8 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of some cool projects I've worked on :computer:.
+order: 3
+description: 
 nav: true
 ---
 
