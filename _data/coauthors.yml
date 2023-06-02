@@ -1,14 +1,14 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Natarajan":
+  - firstname: ["Sriraam", "S.", "S. N.", "Sriraam Natarajan"]
+    url: https://utdallas.edu/~sriraam.natarajan
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Kersting":
+  - firstname: ["Kristian", "K.", "K. K.", "Kristian Kersting"]
+    url: https://ml-research.github.io/people/kkersting/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Krishnan":
+  - firstname: ["Narayanan", "N. C.", "Narayanan C.", "Narayanan Chatapuram"]
+    url: https://seekayan.github.io/ck.html
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]

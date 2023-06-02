@@ -16,7 +16,7 @@ footer_text: >
 url:  "https://sahilsid.github.io" #the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
   
-#UTD hosted
+# #UTD hosted
 # url:  "https://utdallas.edu" #"https://sahilsid.github.io" #the base hostname & protocol for your site
 # baseurl: "/~sahil.sidheekh" #"" # the subpath of your site, e.g. /blog/
 
@@ -151,7 +151,7 @@ scholar:
   last_name: Sidheekh
   first_name: [Sahil, S.]
 
-  style: apa
+  style: chicago-fullnote-bibliography
   locale: en
 
   source: /_bibliography/
