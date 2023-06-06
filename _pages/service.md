@@ -8,29 +8,50 @@ nav: true
 ---
 
 ---
+### Professional
+---
 
-## Research 
+<div class="card-deck">
+    <div class="card mb-3">
+        <h5 class="card-header">Workflow Chair</h5>
+        <div class="card-body">
+            AAAI 2024 
+        </div>
+    </div>
+    <div class="card mb-3">
+        <h5 class="card-header">Reviewer</h5>
+        <div class="card-body">
+            UAI 2023, ECAI 2023, Big Data Journal
+        </div>
+    </div>
+</div>
 
-Delighted to have had the opportunity to serve the research community under the following roles:
 
+--- 
+### Teaching 
+---
 
-***
-###### **Workflow Chair** - AAAI 2024
-***
-###### **Reviewer (Program Committee)** - UAI 2023, Big Data
-***
-
-
-
-## Teaching
 I have been involved as a Teaching Assistant (TA) for the following courses:
 
-***
-###### **CS503** - _Machine Learning_, _Spring 2021_
-###### Indian Institute of Technology Ropar
-***
 
 
-###### **CS4337** - _Programming Languages and Paradigms_, _Fall 2022_, _Spring 2023_
-###### The University of Texas at Dallas
-***
+<div class="card-deck">
+    <div class="card mb-3">
+        <p class="card-header">CS503 - Machine Learning</p>
+        <div class="card-body">
+            Indian Institute of Technology Ropar
+        </div>
+        <div class="card-footer">
+            Spring 2021
+        </div>
+    </div>
+    <div class="card mb-3">
+        <p class="card-header">CS4337 - Programming Languages and Paradigms</p>
+        <div class="card-body">
+            The University of Texas at Dallas
+        </div>
+        <div class="card-footer">
+        Fall 2022, Spring 2023
+        </div>
+    </div>
+</div>
