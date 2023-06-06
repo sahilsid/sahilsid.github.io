@@ -5,9 +5,12 @@
     sidheekh2023probabilistic,
     title={Probabilistic Flow Circuits: Towards Unified Deep Models for Tractable Probabilistic Inference},
     author={Sahil Sidheekh and Kristian Kersting and Sriraam Natarajan},
-    booktitle={The 39th Conference on Uncertainty in Artificial Intelligence},
+    booktitle={The 39th Conference on Uncertainty in Artificial Intelligence (UAI)},
+    abstract={We consider the problem of increasing the expressivity of probabilistic circuits by augmenting them with the successful generative models of normalizing flows. To this effect, we theoretically establish the requirement of decomposability for such combinations to retain tractability of the learned models. Our model, called Probabilistic Flow Circuits, essentially extends circuits by allowing for normalizing flows at the leaves. Our empirical evaluation clearly establishes the expressivity and tractability of this new class of probabilistic circuits},
     year={2023},
+    abbr={UAI 2023 (Oral)},
     pdf={pfc.pdf},
+    poster={pfc-poster.pdf},
     code={https://github.com/sahilsid/probabilistic-flow-circuits},
     teaser={pfc.png},
     selected={true},
@@ -25,6 +28,7 @@
       code={https://github.com/proximal-dg/proximal_dg},
       teaser={proximal_dg.png},
       selected={true},
+      abbr={ICML 2021 },
 }
 
 @inproceedings{
@@ -46,14 +50,16 @@ abstract={Meta-learning (ML) has emerged as a promising direction in learning mo
 sidheekh2022vqflows,
 title={{VQ}-Flows: Vector Quantized Local Normalizing Flows},
 author={Sahil Sidheekh and Chris Barton Dock and Tushar Jain and Radu Balan and Maneesh Kumar Singh},
-booktitle={The 38th Conference on Uncertainty in Artificial Intelligence},
+booktitle={The 38th Conference on Uncertainty in Artificial Intelligence (UAI)},
 year={2022},
 url={https://openreview.net/forum?id=rn4xnDUjcl9},
 abstract={Normalizing flows provide an elegant approach to generative modeling that allows for efficient sampling and exact density evaluation of unknown data distributions. However, current techniques have significant limitations in their expressivity when the data distribution is supported on a low-dimensional manifold or has a non-trivial topology. We introduce a novel statistical framework for learning a mixture of local normalizing flows as "chart maps" over the data manifold. Our framework augments the expressivity of recent approaches while preserving the signature property of normalizing flows, that they admit exact density evaluation. We learn a suitable atlas of charts for the data manifold via a vector quantized auto-encoder (VQ-AE) and the distributions over them using a conditional flow. We validate experimentally that our probabilistic framework enables existing approaches to better model data distributions over complex manifolds.},
 teaser={vqflows.png},
+poster={vqflows-poster.pdf},
 pdf = {vqflows.pdf},
 html={https://openreview.net/forum?id=rn4xnDUjcl9},
-selected={true}
+selected={true},
+abbr = {UAI 2022},
 }
 
 
@@ -65,7 +71,7 @@ selected={true}
       2. Here we develop a novel detection method, using simulated outcomes from a range of simple mathematical models with varying nonlinearity to train a deep neural network to detect critical transitions - the Early Warning Signal Network (EWSNet).
       3. We demonstrate that this neural network (EWSNet), trained on simulated data with minimal assumptions about the underlying structure of the system, can predict with high reliability observed real-world transitions in ecological and climatological data. Importantly, our model appears to capture latent properties in time series missed by previous warning signals approaches, allowing us to not only detect if a transition is approaching but critically whether the collapse will be catastrophic or non-catastrophic.
       4. The EWSNet can flag a critical transition with unprecedented accuracy, overcoming some of the major limitations of traditional methods based on phenomena such as Critical Slowing Down. These novel properties mean EWSNet has the potential to serve as a universal indicator of transitions across a broad spectrum of complex systems, without requiring information on the structure of the system being monitored. Our work highlights the practicality of deep learning for addressing further questions pertaining to ecosystem collapse and have much broader management implications.},
-      journal={Royal Society Open Science (accepted), },
+      journal={Royal Society Open Science Journal, },
       pdf={ewsnet.pdf},
       url={https://www.biorxiv.org/content/10.1101/2021.03.15.435556v1},
       code={https://github.com/sahilsid/EWSNet},
