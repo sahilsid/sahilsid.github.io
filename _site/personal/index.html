@@ -89,7 +89,7 @@
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container">
       
-      <a class="navbar-brand title font-weight-lighter" href="https://sahilsid.github.io/">
+      <a class="navbar-brand title font-weight-lighter" href="http://localhost:5000/">
        <span class="font-weight-bold">Sahil</span>   Sidheekh
       </a>
       
@@ -202,22 +202,54 @@
   .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
   .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
   .image-gallery li a img {width: 100%; display: block;}
+
+  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  h6{
+  color: black; 
+  font-family: "arial";
+  font-size: 100%;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow:hidden;
+  width: 100%;
+  animation: animtext 4s steps(80, end); 
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+  from {
+      width: 0;
+     transition: all 2s ease-in-out;
+  } 
+}
 </style>
+
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">personal</h1>
-    <p class="post-description">I spend my free time playing soccer, travelling, clicking pictures or simply enjoying a book.</p>
-  </header>
+    <!-- <h1 class="post-title">personal</h1> -->
+    <hr>
+    <div class="card bg-dark text-white">
+      <video class="video-background w-100" autoplay loop muted>
+        <source src="/assets/video/minnal-h.mp4" type="video/mp4">
+      </source></video>
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+        <h1 style="color: azure;font-weight: 600;padding: 2%;">personal</h1>
+        <h6 style="background-color: rgba(0, 0, 0, 0.5);color: azure;font-weight: 600;padding: 2%;">I spend my free time travelling, clicking pictures, playing soccer or simply enjoying a book. Here are some of my clicks</h6>
+      </div>
+    </div>
+    
+</header>
 
   <article>
     
-<hr>
-
-<h2>Photography</h2>
-<hr>
-
-<ul class="image-gallery">
+<div>
+  <hr>
+  <!-- <h2>Photography</h2> -->
+  <!-- <hr> -->
+  
+  
+  
+  <ul class="image-gallery">
   
     
   
@@ -471,14 +503,21 @@
   
     
   
+    
+  
+    
+  
   </ul>
 
-<hr>
 
-<h2>Travels</h2>
-<hr>
-
-<ul class="image-gallery">
+  <div>
+  <hr>
+  <!-- <h2>Travels</h2> -->
+  <!-- <hr> -->
+  
+  
+  
+  <ul class="image-gallery">
   
     
   
@@ -724,8 +763,16 @@
   
     
   
+    
+  
+    
+  
   </ul>
 
+
+
+</div>
+</div>
 
   </article>
 
@@ -743,7 +790,7 @@
 
     
     
-    Last updated: June 06, 2023.
+    Last updated: June 08, 2023.
     
   </div>
 </footer>

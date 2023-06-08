@@ -21,7 +21,24 @@ nav: true
     <div class="card mb-3">
         <h5 class="card-header">Reviewer</h5>
         <div class="card-body">
-            UAI 2023, ECAI 2023, Big Data Journal
+            <table class="table-borderless">
+            <tr>
+                <td>
+                    <h6>Conferences </h6>
+                </td>
+                <td>
+                    - UAI 2023, ECAI 2023
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <h6>Journals  </h6>
+                </td>
+                <td>
+                    - JAIR, Big Data 
+                </td>
+             </tr>
+            </table>
         </div>
     </div>
 </div>
@@ -41,7 +58,7 @@ I have been involved as a Teaching Assistant (TA) for the following courses:
         <div class="card-body">
             Indian Institute of Technology Ropar
         </div>
-        <div class="card-footer">
+        <div class="card-footer" >
             Spring 2021
         </div>
     </div>

@@ -7,13 +7,43 @@ layout: default
   .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
   .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
   .image-gallery li a img {width: 100%; display: block;}
+
+  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  h6{
+  color: black; 
+  font-family: "arial";
+  font-size: 100%;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow:hidden;
+  width: 100%;
+  animation: animtext 4s steps(80, end); 
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+  from {
+      width: 0;
+     transition: all 2s ease-in-out;
+  } 
+}
 </style>
 
-<div class="post">
+
+<div class="post" >
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
+    <!-- <h1 class="post-title">{{ page.title }}</h1> -->
+    <hr>
+    <div class="card bg-dark text-white">
+      <video class="video-background w-100" autoplay loop muted>
+        <source src="{{site.baseurl}}/assets/video/minnal-h.mp4" type="video/mp4">
+      </video>
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+        <h1 style="color: azure;font-weight: 600;padding: 2%;">{{page.title}}</h1>
+        <h6 style="background-color: rgba(0, 0, 0, 0.5);color: azure;font-weight: 600;padding: 2%;">{{ page.description }}</h6>
+      </div>
+    </div>
+    
+</header>
 
   <article>
     {{ content }}
