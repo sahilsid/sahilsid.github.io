@@ -1,1 +1,0 @@
-scp -r _site/* sxs220047@giant.utdallas.edu:~/public_html/
